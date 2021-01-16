@@ -1,0 +1,86 @@
+.boxContainer {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* Heart Icon
+--------------------------------------------- */
+
+.site-footer .icon {
+  font-size: 20px;
+}
+
+.site-footer .love .icon {
+  font-size: 12px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 2px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 230px;
+  width: 300px;
+  background: #fff;
+  padding: 13px;
+  border-radius: 25px;
+  position: relative;
+  text-align: center;
+}
+
+body {
+  background: #f3eded;
+  overflow-x: hidden;
+}
+
+.btn_Submit {
+  height: 45px;
+  border-radius: 10px;
+  color: #987f69;
+  font-weight: bold;
+  font-size: medium;
+  background-color: #e5ddd7;
+  border: 1px solid #f3eded;
+  margin-top: auto;
+}
+
+input {
+  background: #fff;
+  color: #525865;
+  border-radius: 6px;
+  border: 1px solid #d1d1d1;
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.07);
+  font-size: 1em;
+  outline: none;
+  padding: 0.6em 1.45em 0.7em;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: gray;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: gray;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: gray;
+}
