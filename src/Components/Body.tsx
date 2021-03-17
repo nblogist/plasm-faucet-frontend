@@ -40,9 +40,9 @@ class Body extends Component {
       <div>
         <div className="boxContainer">
           <div className="box">
-            <h4>Plasm Faucet</h4>
+            <h4>Plasm Dusty Faucet</h4>
             <label style={{ marginTop: "auto" }}>Enter Wallet Address</label>
-            <input onChange={this.handleChange} type="text" placeholder="0x0" style={{ height: '40px' }} />
+            <input onChange={this.handleChange} type="text" placeholder="" style={{ height: '40px' }} />
             <button onClick={this.callAPI.bind(this)} type="button" className="btn_Submit">Submit</button>
             <LoadingSpinnerComponent />
           </div>
