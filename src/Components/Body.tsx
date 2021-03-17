@@ -53,7 +53,7 @@ class Body extends Component {
             emoji
             link='https://flow.page/FurqanAhmed'
           /> */}
-          <p className="textContainer">Made with ❤️ by <a href="https://furqan.me" target="_blank"> Furqan in 🇵🇰</a></p>
+          <p className="textContainer">Made with ❤️ by <a href="https://furqan.me" target="_blank"> Furqan</a> in 🇵🇰</p>
         </div>
         <ForkMeOnGithub repo="https://github.com/nblogist/plasm-faucet-frontend"/>
       </div >
